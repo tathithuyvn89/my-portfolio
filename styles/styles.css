@@ -309,22 +309,28 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .vue {
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 30%;
 }
 
 .stat-title {
@@ -960,5 +966,20 @@ section {
     font-size: 4rem;
   }
 }
-
+.project-description--line{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 15px;
+  color: var(--color-grey-2);
+  border-bottom: solid 1px grey;
+  /* padding: 4px; */
+}
+.project-description .project-description--line .title {
+  width: 50%;
+  height: 100%;
+}
+.project-description .project-description--line .content {
+  width: 50%;
+}
 /*# sourceMappingURL=styles.css.map */
